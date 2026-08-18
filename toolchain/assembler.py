@@ -36,8 +36,8 @@ conditionmap = {
 }
 
 
-file = open("/home/sruthidhar/projects/gpu2/updated_proj/program.asm" , "r") #add file path
-output_file = open("/home/sruthidhar/projects/gpu2/updated_proj/program.hex" , "w") #add file path 
+file = open("program.asm" , "r") #add file path
+output_file = open("program.hex" , "w") #add file path 
 
 
 lineslist = []
