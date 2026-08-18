@@ -18,7 +18,7 @@ module fetch(
 
 	initial begin 
 
-		$readmemh("/home/sruthidhar/projects/gpu2/updated_proj/program.hex" , inst_mem);
+		$readmemh("program.hex" , inst_mem);
 
 	end 
 
